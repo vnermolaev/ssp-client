@@ -183,7 +183,7 @@ function makeMutClosure(arg0, arg1, dtor, f) {
     return real;
 }
 function __wbg_adapter_28(arg0, arg1, arg2) {
-    wasm.closure264_externref_shim(arg0, arg1, arg2);
+    wasm.closure258_externref_shim(arg0, arg1, arg2);
 }
 
 /**
@@ -217,7 +217,7 @@ function handleError(f, args) {
     }
 }
 function __wbg_adapter_152(arg0, arg1, arg2, arg3) {
-    wasm.closure336_externref_shim(arg0, arg1, arg2, arg3);
+    wasm.closure330_externref_shim(arg0, arg1, arg2, arg3);
 }
 
 const __wbindgen_enum_BinaryType = ["blob", "arraybuffer"];
@@ -629,8 +629,8 @@ function __wbg_get_imports() {
         const ret = wasm.memory;
         return ret;
     };
-    imports.wbg.__wbindgen_closure_wrapper641 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 265, __wbg_adapter_28);
+    imports.wbg.__wbindgen_closure_wrapper633 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 259, __wbg_adapter_28);
         return ret;
     };
     imports.wbg.__wbindgen_init_externref_table = function() {
